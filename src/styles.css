@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logotext {
+    font-family: 'Poppins', sans-serif;
+}
+
+.blue1 {
+    background-color: #179BD7;
+}
+.btnColor {
+    background-color: #ffd43b;
+}
