@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    height: 100%;
+}
 .logotext {
     font-family: 'Poppins', sans-serif;
 }
