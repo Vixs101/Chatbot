@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body 
-    class="md:mx-36 overflow-hidden" 
+    class="md:mx-36 " 
     style="background-image: url(/images/background.png);">
     <nav class="blue1 px-2">
         <div class="flex items-center justify-between">
@@ -44,15 +44,15 @@
     </nav>
 
     <!-- conversation -->
-    <section class="flex flex-col h-full  p-4 bg-white rounded shadow">
+    <section class="flex flex-col h-full  px-4 pt-4 pb-10 bg-white rounded shadow w-full">
         <!-- user -->
-        <div class="flex flex-col self-end blue1 max-w-56 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
+        <div class="flex flex-col self-end blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
             <p class="text-wrap mr-14">Hello</p>
             <p class="text-sm self-end">1:30pm</p>
         </div>
 
         <!-- chatbot -->
-        <div class="flex flex-col blue1 max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
+        <div class="flex flex-col blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
             <p class="text-wrap">How can i help you today?</p>
             <p class="text-sm self-end">1:50pm</p>
         </div>
@@ -71,36 +71,31 @@
         </div>
 
         <!-- user -->
-        <div class="flex flex-col self-end blue1 max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
+        <div class="flex flex-col self-end blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
             <p class="text-wrap">What is the school's dress code policy?</p>
             <p class="text-sm self-end">1:55pm</p>
         </div>        
 
         <!-- chatbot -->
-        <div class="flex flex-col blue1 max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
+        <div class="flex flex-col blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
             <p class="text-wrap">Our school follows a specific dress code outlined in the student handbook. You can find detailed information on appropriate attire to maintain a positive and focused learning environment.</p>
             <p class="text-sm self-end">1:56pm</p>
         </div>
 
         <!-- suggestions -->
         <div class="flex gap-2 mb-8">
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
+            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
                 <p>What is the school's dress code policy?</p>
             </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
+            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
                 <p>How much is the Tuition?</p>
             </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
+            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
                 <p>Talk to a Staff</p>
             </div>
         </div>
-    
-        <div class="flex flex-col self-end blue1 max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
-            <p class="text-wrap">What is the school's dress code policy?</p>
-            <p class="text-sm self-end">1:55pm</p>
-        </div>            
         
-        <div id="container" class="border-2 bg-white border-blue-600 rounded-xl h-12 p-2 w-96 fixed bottom-0 left-5 right-5 mr-10">
+        <div id="container" class="border-2 bg-white border-blue-600 rounded-xl h-12 p-2 w-11/12 sm:w-13/12 md:w-3/4 fixed bottom-0 ">
             <textarea id="myTextarea" type="text" class="w-full h-full outline-none"></textarea>
         </div>
     </section>
