@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body 
-    class="md:mx-36" 
+    class="md:mx-36 overflow-hidden" 
     style="background-image: url(/images/background.png);">
     <nav class="blue1 px-2">
         <div class="flex items-center justify-between">
@@ -94,13 +94,18 @@
                 <p>Talk to a Staff</p>
             </div>
         </div>
+    
+        <div class="flex flex-col self-end blue1 max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
+            <p class="text-wrap">What is the school's dress code policy?</p>
+            <p class="text-sm self-end">1:55pm</p>
+        </div>            
         
-        <div class="border-2 border-blue-600 rounded-xl mx-2 h-12 p-2">
-            <input type="text" class="w-full outline-none">
+        <div id="container" class="border-2 bg-white border-blue-600 rounded-xl h-12 p-2 w-96 fixed bottom-0 left-5 right-5 mr-10">
+            <textarea id="myTextarea" type="text" class="w-full h-full outline-none"></textarea>
         </div>
     </section>
     
 
 </body>
-
+<script src="textArea.js"></script>
 </html>
