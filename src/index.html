@@ -24,14 +24,20 @@
                 <h1 class="font-bold text-xl md:text-3xl text-white logotext">ChatBot</h1>
             </div>
 
-            <button class="hidden md:block btnColor h-8 w-20 font-semibold rounded-full hover:bg-amber-400">Settings</button>
+            <button 
+                class="hidden md:block btnColor h-8 w-20 font-semibold rounded-full hover:bg-amber-400"
+                id="settingsbtn"
+                >
+                Settings
+            </button>
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 
                 viewBox="0 0 24 24" 
                 stroke-width="1.5" 
                 stroke="currentColor" 
-                class="w-8 h-8 text-white md:hidden">
+                class="w-8 h-8 text-white md:hidden"
+                id="settings">
                 <path 
                     stroke-linecap="round" 
                     stroke-linejoin="round" 
@@ -64,11 +70,32 @@
         </div>
 
         <form class="w-11/12">
-            <label for="fname">Name:</label><br>
-            <input type="text" id="name" name="name" class="border-2 border-blue-400 w-full"><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email" class="border-2 border-blue-400 w-full">
-          </form>
+            <label 
+                for="fname">
+                Name:
+            </label>
+            <br>
+            <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Enter your name" 
+                class="border-2 border-blue-400 w-full"
+            >
+            <br>
+            <label 
+                for="email">
+                Email:
+            </label>
+                <br>
+            <input 
+                type="text" 
+                id="email" 
+                name="email" 
+                placeholder="Enter your name" 
+                class="border-2 border-blue-400 w-full"
+                >
+        </form>
     </div>
 
     <!-- conversation -->
