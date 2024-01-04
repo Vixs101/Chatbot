@@ -14,7 +14,7 @@
 <body 
     class="md:mx-36 " 
     style="background-image: url(/images/background.png);">
-    <nav class="blue1 px-2">
+    <nav class="blue1 px-2 flex flex-col">
         <div class="flex items-center justify-between">
             <div class="flex items-center">
                 <img 
@@ -43,33 +43,33 @@
             </svg>  
 
         </div>
-
-        <div class="w-72  rounded border-2 p-2 bg-white">
-            <div class="flex items-center mb-3">
-                <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke-width="1.5" 
-                    stroke="currentColor" class="w-5 h-5">
-                    <path 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                </svg>
-
-                <p class="font-semibold text-xl ml-2">Provide Contact details</p>
-            </div>
-
-            <form class="w-11/12">
-                <label for="fname">Name:</label><br>
-                <input type="text" id="name" name="name" class="border-2 border-blue-400 w-full"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email" class="border-2 border-blue-400 w-full">
-              </form>
-        </div>
     </nav>
 
+    <!-- form -->
+    <div class="w-72 rounded border-2 border-blue-400 p-3 bg-white self-end absolute right-0 md:right-36">
+        <div class="flex items-center mb-3">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke-width="1.5" 
+                stroke="currentColor" class="w-5 h-5">
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+
+            <p class="font-semibold text-xl ml-2">Provide Contact details</p>
+        </div>
+
+        <form class="w-11/12">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="name" name="name" class="border-2 border-blue-400 w-full"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" class="border-2 border-blue-400 w-full">
+          </form>
+    </div>
 
     <!-- conversation -->
     <section class="flex flex-col h-full  px-4 pt-4 pb-10 bg-white rounded shadow w-full">
