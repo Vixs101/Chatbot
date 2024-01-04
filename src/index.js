@@ -26,5 +26,10 @@ function checkOverflow() {
 
 // toggling the display of the form
 settingsbtn.addEventListener('click', function() {
-  form.classList.toggle('hidden')
-})
+  form.classList.toggle('hidden');
+});
+
+settings.addEventListener('click', function() {
+  form.classList.toggle('hidden');
+  settings.classList.toggle('rotate-90');
+});
