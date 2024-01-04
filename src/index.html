@@ -23,6 +23,7 @@
                     class="h-14 md:h-16  w-14 md:w-16">
                 <h1 class="font-bold text-xl md:text-3xl text-white logotext">ChatBot</h1>
             </div>
+
             <button class="hidden md:block btnColor h-8 w-20 font-semibold rounded-full hover:bg-amber-400">Settings</button>
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -40,8 +41,35 @@
                     stroke-linejoin="round" 
                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
             </svg>  
+
+        </div>
+
+        <div class="w-64  rounded border-2 p-2 bg-white">
+            <div class="flex items-center mb-3">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke-width="1.5" 
+                    stroke="currentColor" class="w-5 h-5">
+                    <path 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+
+                <p class="font-semibold text-xl ml-2">Provide Contact details</p>
+            </div>
+
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+              </form>
         </div>
     </nav>
+
 
     <!-- conversation -->
     <section class="flex flex-col h-full  px-4 pt-4 pb-10 bg-white rounded shadow w-full">
@@ -99,7 +127,8 @@
             id="container" 
             class="flex items-center border-2 bg-white border-blue-600 rounded-xl h-12 p-2 w-11/12 sm:w-13/12 md:w-3/4 fixed bottom-0 mb-2">
             <textarea id="myTextarea" type="text" class="w-full h-full outline-none"></textarea>
-            <svg 
+            <a>
+                <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 
                 viewBox="0 0 24 24" 
@@ -111,7 +140,7 @@
                     stroke-linejoin="round" 
                     d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
               </svg>
-              
+            </a>  
         </div>
     </section>
     
