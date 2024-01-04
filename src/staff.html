@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <title>ChatBot</title>
-    
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/dist/output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Talk to a Staff</title>
 </head>
-<body 
+<body>
+    <body 
     class="md:mx-36 " 
     style="background-image: url(/images/background.png);">
     <nav class="blue1 px-2 flex flex-col">
@@ -103,55 +98,29 @@
 
     <!-- conversation -->
     <section class="flex flex-col h-full  px-4 pt-4 pb-10 bg-white rounded shadow w-full">
-        <!-- user -->
-        <div class="flex flex-col self-end blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
-            <p class="text-wrap mr-14">Hello</p>
-            <p class="text-sm self-end">1:30pm</p>
-        </div>
-
         <!-- chatbot -->
         <div class="flex flex-col blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
             <p class="text-wrap">How can i help you today?</p>
             <p class="text-sm self-end">1:50pm</p>
         </div>
-
-        <!-- suggestions -->
-        <div class="flex gap-2 mb-8">
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
-                <p>What is the school's dress code policy?</p>
-            </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
-                <p>How can I enroll my child in the school?</p>
-            </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  md:max-w-34 p-2">
-                <p>Talk to a Staff</p>
-            </div>
-        </div>
-
+        
         <!-- user -->
         <div class="flex flex-col self-end blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
-            <p class="text-wrap">What is the school's dress code policy?</p>
-            <p class="text-sm self-end">1:55pm</p>
-        </div>        
+            <p class="text-wrap mr-14">I wanted to confirm if the acceptance fee can be paid via transfer alone</p>
+            <p class="text-sm self-end">1:30pm</p>
+        </div>
 
         <!-- chatbot -->
         <div class="flex flex-col blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-br-xl mb-3">
-            <p class="text-wrap">Our school follows a specific dress code outlined in the student handbook. You can find detailed information on appropriate attire to maintain a positive and focused learning environment.</p>
+            <p class="text-wrap">Yes all payments are only made through transfers.</p>
             <p class="text-sm self-end">1:56pm</p>
         </div>
-
-        <!-- suggestions -->
-        <div class="flex gap-2 mb-8">
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
-                <p>What is the school's dress code policy?</p>
-            </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
-                <p>How much is the Tuition?</p>
-            </div>
-            <div class="border-2 rounded text-pretty cursor-pointer text-sm border-blue-600  max-w-34 p-2">
-                <p>Talk to a Staff</p>
-            </div>
-        </div>
+         
+        <!-- user -->
+        <div class="flex flex-col self-end blue1 max-w-52 sm:max-w-60 md:max-w-80 text-white text-pretty p-2 rounded-t-xl rounded-bl-xl mb-8">
+            <p class="text-wrap">Alright thank you</p>
+            <p class="text-sm self-end">1:55pm</p>
+        </div>        
         
         <div 
             id="container" 
@@ -173,8 +142,7 @@
             </a>  
         </div>
     </section>
-    
-
 </body>
 <script src="index.js"></script>
+</body>
 </html>
