@@ -1,1 +1,1 @@
-An Chatbot that helps students and aspiring students in Taraba State University to get answers to questions
+A chatbot designed to provide information and assistance to students and aspiring students of Taraba State University.
